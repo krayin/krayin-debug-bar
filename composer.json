@@ -1,0 +1,27 @@
+{
+    "name": "krayin/krayin-debug-bar",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Jitendra Singh",
+            "email": "jitendra@webkul.com"
+        }
+    ],
+    "require-dev": {
+        "barryvdh/laravel-debugbar": "^3.6"
+    },
+    "autoload": {
+        "psr-4": {
+            "Webkul\\DebugBar\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Webkul\\DebugBar\\Providers\\DebugBarServiceProvider"
+            ],
+            "aliases": {}
+        }
+    },
+    "minimum-stability": "dev"
+}
